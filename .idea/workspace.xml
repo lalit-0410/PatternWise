@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c47f605a-1a65-44d7-9d36-089aed00fc71" name="Changes" comment="Initial commit two pointer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/LT_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/LT_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/LT_977.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/LT_977.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TwoPointer/LT_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/LT_16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LT_15">
+  <component name="RunManager" selected="Application.LT_16">
     <configuration name="FruitIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SlidingWindow.FruitIntoBasket" />
       <module name="PatternWise" />
@@ -112,8 +111,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.LT_977" />
+    <configuration name="LT_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.LT_16" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -125,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestKUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.LongestKUnique" />
+    <configuration name="LT_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.LT_977" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LT_16" />
         <item itemvalue="Application.LT_15" />
         <item itemvalue="Application.LT_977" />
         <item itemvalue="Application.LongestUnique" />
         <item itemvalue="Application.FruitIntoBasket" />
-        <item itemvalue="Application.LongestKUnique" />
       </list>
     </recent_temporary>
   </component>
