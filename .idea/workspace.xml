@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c47f605a-1a65-44d7-9d36-089aed00fc71" name="Changes" comment="Initial commit two pointer">
+      <change afterPath="$PROJECT_DIR$/src/College/BinaryStringOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ContainWaterHold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/TrappingRainWater_42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ValidPaliddrome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoPointer/LT_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TwoPointer/LT_16.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,38 +63,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.FruitIntoBasket.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_16.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_167.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_209.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_26.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_88.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_977.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestKUnique.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestUnique.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Maxof3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortColor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubArrayLessThanK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TripletWithSmallerSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSumDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.BinaryStringOperation.executor": "Run",
+    "Application.ContainWaterHold.executor": "Run",
+    "Application.FruitIntoBasket.executor": "Run",
+    "Application.LT_1.executor": "Run",
+    "Application.LT_15.executor": "Run",
+    "Application.LT_16.executor": "Run",
+    "Application.LT_167.executor": "Run",
+    "Application.LT_209.executor": "Run",
+    "Application.LT_26.executor": "Run",
+    "Application.LT_88.executor": "Run",
+    "Application.LT_977.executor": "Run",
+    "Application.LongestKUnique.executor": "Run",
+    "Application.LongestUnique.executor": "Run",
+    "Application.Maxof3.executor": "Run",
+    "Application.MoveZeroes.executor": "Run",
+    "Application.SortColor.executor": "Run",
+    "Application.SubArrayLessThanK.executor": "Run",
+    "Application.TrappingRainWater_42.executor": "Run",
+    "Application.TripletWithSmallerSum.executor": "Run",
+    "Application.TwoSumDuplicate.executor": "Run",
+    "Application.ValidPaliddrome.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.LT_16">
-    <configuration name="FruitIntoBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.FruitIntoBasket" />
+}]]></component>
+  <component name="RunManager" selected="Application.TrappingRainWater_42">
+    <configuration name="BinaryStringOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="College.BinaryStringOperation" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="PATTERN" value="College.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.LT_15" />
+    <configuration name="ContainWaterHold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.ContainWaterHold" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -111,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT_16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.LT_16" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.MoveZeroes" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -124,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT_977" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.LT_977" />
+    <configuration name="TrappingRainWater_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.TrappingRainWater_42" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -137,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestUnique" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SlidingWindow.LongestUnique" />
+    <configuration name="ValidPaliddrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.ValidPaliddrome" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="PATTERN" value="TwoPointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LT_16" />
-        <item itemvalue="Application.LT_15" />
-        <item itemvalue="Application.LT_977" />
-        <item itemvalue="Application.LongestUnique" />
-        <item itemvalue="Application.FruitIntoBasket" />
+        <item itemvalue="Application.TrappingRainWater_42" />
+        <item itemvalue="Application.BinaryStringOperation" />
+        <item itemvalue="Application.ValidPaliddrome" />
+        <item itemvalue="Application.MoveZeroes" />
+        <item itemvalue="Application.ContainWaterHold" />
       </list>
     </recent_temporary>
   </component>
