@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c47f605a-1a65-44d7-9d36-089aed00fc71" name="Changes" comment="Initial commit two pointer">
-      <change afterPath="$PROJECT_DIR$/src/College/BinaryStringOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ContainWaterHold.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/MoveZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/TrappingRainWater_42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoPointer/ValidPaliddrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/College/RemoveElement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +77,7 @@
     "Application.LongestUnique.executor": "Run",
     "Application.Maxof3.executor": "Run",
     "Application.MoveZeroes.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
     "Application.SortColor.executor": "Run",
     "Application.SubArrayLessThanK.executor": "Run",
     "Application.TrappingRainWater_42.executor": "Run",
@@ -93,7 +90,7 @@
     "onboarding.tips.debug.path": "C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TrappingRainWater_42">
+  <component name="RunManager" selected="Application.RemoveElement">
     <configuration name="BinaryStringOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="College.BinaryStringOperation" />
       <module name="PatternWise" />
@@ -107,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContainWaterHold" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.ContainWaterHold" />
+    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoPointer.MoveZeroes" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.MoveZeroes" />
+    <configuration name="RemoveElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="College.RemoveElement" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TwoPointer.*" />
+          <option name="PATTERN" value="College.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement" />
         <item itemvalue="Application.TrappingRainWater_42" />
         <item itemvalue="Application.BinaryStringOperation" />
         <item itemvalue="Application.ValidPaliddrome" />
         <item itemvalue="Application.MoveZeroes" />
-        <item itemvalue="Application.ContainWaterHold" />
       </list>
     </recent_temporary>
   </component>
