@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c47f605a-1a65-44d7-9d36-089aed00fc71" name="Changes" comment="Initial commit two pointer">
-      <change afterPath="$PROJECT_DIR$/src/College/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/ThreeDistinctCharacter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SlidingWindow/MaxSubArraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SlidingWindow/LT_209.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SlidingWindow/LT_209.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +76,7 @@
     "Application.LT_977.executor": "Run",
     "Application.LongestKUnique.executor": "Run",
     "Application.LongestUnique.executor": "Run",
+    "Application.MaxSubArraySum.executor": "Run",
     "Application.Maxof3.executor": "Run",
     "Application.MissingNumber.executor": "Run",
     "Application.MoveZeroes.executor": "Run",
@@ -93,13 +94,26 @@
     "onboarding.tips.debug.path": "C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MissingNumber">
-    <configuration name="BinaryStringOperation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="College.BinaryStringOperation" />
+  <component name="RunManager" selected="Application.LT_209">
+    <configuration name="LT_209" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.LT_209" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="College.*" />
+          <option name="PATTERN" value="SlidingWindow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxSubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindow.MaxSubArraySum" />
+      <module name="PatternWise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SlidingWindow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,26 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrappingRainWater_42" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoPointer.TrappingRainWater_42" />
-      <module name="PatternWise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TwoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LT_209" />
+        <item itemvalue="Application.MaxSubArraySum" />
         <item itemvalue="Application.MissingNumber" />
         <item itemvalue="Application.ThreeDistinctCharacter" />
         <item itemvalue="Application.RemoveElement" />
-        <item itemvalue="Application.TrappingRainWater_42" />
-        <item itemvalue="Application.BinaryStringOperation" />
       </list>
     </recent_temporary>
   </component>

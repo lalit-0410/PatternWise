@@ -5,21 +5,19 @@ public class LT_209 {
         int low=0;
         int high=0;
         int n=nums.length;
-        int minLen=Integer.MAX_VALUE;
         int sum=0;
+        int result=Integer.MAX_VALUE;
         while (high<n){
             sum=sum+nums[high];
             while (sum>=target){
-                int min=high-low+1;
-                if(min<minLen){
-                    minLen=min;
-                }
+                int len=high-low+1;
+                result=Math.min(result,len);
                 sum=sum-nums[low];
                 low++;
             }
             high++;
         }
-        return minLen;
+        return result;
     }
     public static void main(String[] args) {
         int[] nums={2,3,1,2,4,3};
