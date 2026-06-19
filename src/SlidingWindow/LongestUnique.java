@@ -12,9 +12,9 @@ public class LongestUnique {
             char ch=s.charAt(right);
 
             map.put(ch,map.getOrDefault(ch,0)+1);
-            int k=right-left+1;
+            int k=right-left+1; //size
 
-            while (map.size()<k) {
+            while (map.size()<k) {//duplicate repeat
                 char leftChar = s.charAt(left);
                 map.put(leftChar, map.get(leftChar) - 1);
 
