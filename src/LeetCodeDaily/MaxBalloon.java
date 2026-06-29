@@ -5,6 +5,7 @@ import java.util.HashMap;
 
 public class MaxBalloon {
     static void maxBalloon(String s){
+        /*
         HashMap<Character,Integer> map=new HashMap<>();
         for (int i = 0; i < s.length(); i++)
         {
@@ -17,7 +18,16 @@ public class MaxBalloon {
         int o = map.getOrDefault('o', 0) / 2;
         int n = map.getOrDefault('n', 0);
         System.out.println(Math.min(Math.min(b,a),Math.min(Math.min(l,o),n)));
-
+*/
+        int[] freq=new int[26];
+        for (int i = 0; i < s.length(); i++) {
+            char ch=s.charAt(i);
+            freq[ch-'a']++;
+        }
+        System.out.println(Math.min(
+                            Math.min(freq['b'-'a'],freq['a'-'a']),
+                            Math.min(
+                                    Math.min(freq['l'-'a']/2,freq['o'-'a']/2),freq['n'-'a'])));
     }
     public static void main(String[] args) {
         String str="nlaebolko";
