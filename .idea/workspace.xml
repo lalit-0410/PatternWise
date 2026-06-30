@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c47f605a-1a65-44d7-9d36-089aed00fc71" name="Changes" comment="Initial commit two pointer">
-      <change afterPath="$PROJECT_DIR$/src/College/BestTimeToBuySell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCodeDaily/FirstOccuranceOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LeetCodeDaily/LT1967.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LeetCodeDaily/LT1358.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LeetCodeDaily/MaxBalloon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeetCodeDaily/MaxBalloon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +69,7 @@
     "Application.FirstOccuranceOfString.executor": "Run",
     "Application.FruitIntoBasket.executor": "Run",
     "Application.HighestAltitude.executor": "Run",
+    "Application.LT1358.executor": "Run",
     "Application.LT1967.executor": "Run",
     "Application.LT_1.executor": "Run",
     "Application.LT_15.executor": "Run",
@@ -106,7 +104,7 @@
     "onboarding.tips.debug.path": "C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LT1967">
+  <component name="RunManager" selected="Application.LT1358">
     <configuration name="BestTimeToBuySell" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="College.BestTimeToBuySell" />
       <module name="PatternWise" />
@@ -122,6 +120,19 @@
     </configuration>
     <configuration name="FirstOccuranceOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LeetCodeDaily.FirstOccuranceOfString" />
+      <module name="PatternWise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCodeDaily.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LT1358" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeDaily.LT1358" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -159,26 +170,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumIceCreamBars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCodeDaily.MaximumIceCreamBars" />
-      <module name="PatternWise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCodeDaily.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LT1358" />
         <item itemvalue="Application.LT1967" />
         <item itemvalue="Application.FirstOccuranceOfString" />
         <item itemvalue="Application.BestTimeToBuySell" />
         <item itemvalue="Application.MaxBalloon" />
-        <item itemvalue="Application.MaximumIceCreamBars" />
       </list>
     </recent_temporary>
   </component>
