@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c47f605a-1a65-44d7-9d36-089aed00fc71" name="Changes" comment="Initial commit two pointer">
+      <change afterPath="$PROJECT_DIR$/src/DP_1/FrogJump.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DP_1/MinCostClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DP_1/MinCostClimbStairs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +69,7 @@
     &quot;Application.ContainWaterHold.executor&quot;: &quot;Run&quot;,
     &quot;Application.Fibonaaci.executor&quot;: &quot;Run&quot;,
     &quot;Application.FirstOccuranceOfString.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FrogJump.executor&quot;: &quot;Run&quot;,
     &quot;Application.FruitIntoBasket.executor&quot;: &quot;Run&quot;,
     &quot;Application.HighestAltitude.executor&quot;: &quot;Run&quot;,
     &quot;Application.LT1358.executor&quot;: &quot;Run&quot;,
@@ -107,7 +108,7 @@
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MinCostClimbStairs">
+  <component name="RunManager" selected="Application.LT3754">
     <configuration name="ClimbStair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP_1.ClimbStair" />
       <module name="PatternWise" />
@@ -134,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT1358" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCodeDaily.LT1358" />
+    <configuration name="FrogJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP_1.FrogJump" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LeetCodeDaily.*" />
+          <option name="PATTERN" value="DP_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LT1967" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LeetCodeDaily.LT1967" />
+    <configuration name="LT3754" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCodeDaily.LT3754" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -175,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LT3754" />
+        <item itemvalue="Application.FrogJump" />
         <item itemvalue="Application.MinCostClimbStairs" />
         <item itemvalue="Application.ClimbStair" />
         <item itemvalue="Application.Fibonaaci" />
-        <item itemvalue="Application.LT1358" />
-        <item itemvalue="Application.LT1967" />
       </list>
     </recent_temporary>
   </component>
