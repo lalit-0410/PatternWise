@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c47f605a-1a65-44d7-9d36-089aed00fc71" name="Changes" comment="Initial commit two pointer">
-      <change afterPath="$PROJECT_DIR$/src/DP_1/FrogJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_2/UniquePath2Recursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DP_2/UniquePaths_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,71 +60,60 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.AngleBwHourMin.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BestTimeToBuySell.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BinaryStringOperation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClimbStair.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainWaterHold.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Fibonaaci.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FirstOccuranceOfString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FrogJump.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FruitIntoBasket.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HighestAltitude.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT1358.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT1967.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_15.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_16.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_167.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_209.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_26.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_88.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LT_977.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestKUnique.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestSubArrayReplacement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestUnique.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LongestWindowLessThan80.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxBalloon.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaxSubArraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MaximumIceCreamBars.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Maxof3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinCostClimbStairs.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MinimumSizeSubArraySum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MissingNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MoveZeroes.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortColor.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SubArrayLessThanK.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ThreeDistinctCharacter.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TrappingRainWater_42.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TripletWithSmallerSum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSumDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ValidPaliddrome.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AngleBwHourMin.executor": "Run",
+    "Application.BestTimeToBuySell.executor": "Run",
+    "Application.BinaryStringOperation.executor": "Run",
+    "Application.ClimbStair.executor": "Run",
+    "Application.ContainWaterHold.executor": "Run",
+    "Application.Fibonaaci.executor": "Run",
+    "Application.FirstOccuranceOfString.executor": "Run",
+    "Application.FrogJump.executor": "Run",
+    "Application.FruitIntoBasket.executor": "Run",
+    "Application.HighestAltitude.executor": "Run",
+    "Application.LT1358.executor": "Run",
+    "Application.LT1967.executor": "Run",
+    "Application.LT3754.executor": "Run",
+    "Application.LT_1.executor": "Run",
+    "Application.LT_15.executor": "Run",
+    "Application.LT_16.executor": "Run",
+    "Application.LT_167.executor": "Run",
+    "Application.LT_209.executor": "Run",
+    "Application.LT_26.executor": "Run",
+    "Application.LT_88.executor": "Run",
+    "Application.LT_977.executor": "Run",
+    "Application.LongestKUnique.executor": "Run",
+    "Application.LongestSubArrayReplacement.executor": "Run",
+    "Application.LongestUnique.executor": "Run",
+    "Application.LongestWindowLessThan80.executor": "Run",
+    "Application.MaxBalloon.executor": "Run",
+    "Application.MaxSubArraySum.executor": "Run",
+    "Application.MaximumIceCreamBars.executor": "Run",
+    "Application.Maxof3.executor": "Run",
+    "Application.MinCostClimbStairs.executor": "Run",
+    "Application.MinimumSizeSubArraySum.executor": "Run",
+    "Application.MissingNumber.executor": "Run",
+    "Application.MoveZeroes.executor": "Run",
+    "Application.RemoveElement.executor": "Run",
+    "Application.SortColor.executor": "Run",
+    "Application.SubArrayLessThanK.executor": "Run",
+    "Application.ThreeDistinctCharacter.executor": "Run",
+    "Application.TrappingRainWater_42.executor": "Run",
+    "Application.TripletWithSmallerSum.executor": "Run",
+    "Application.TwoSumDuplicate.executor": "Run",
+    "Application.UniquePaths_1.executor": "Run",
+    "Application.ValidPaliddrome.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/chaud/OneDrive/Desktop/SpringAIProjects/PatternWise/src/Main.java"
   }
-}</component>
-  <component name="RunManager" selected="Application.LT3754">
+}]]></component>
+  <component name="RunManager" selected="Application.UniquePaths_1">
     <configuration name="ClimbStair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DP_1.ClimbStair" />
-      <module name="PatternWise" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DP_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fibonaaci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DP_1.Fibonaaci" />
       <module name="PatternWise" />
       <extension name="coverage">
         <pattern>
@@ -174,13 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniquePaths_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DP_2.UniquePaths_1" />
+      <module name="PatternWise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DP_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniquePaths_1" />
         <item itemvalue="Application.LT3754" />
         <item itemvalue="Application.FrogJump" />
         <item itemvalue="Application.MinCostClimbStairs" />
         <item itemvalue="Application.ClimbStair" />
-        <item itemvalue="Application.Fibonaaci" />
       </list>
     </recent_temporary>
   </component>
